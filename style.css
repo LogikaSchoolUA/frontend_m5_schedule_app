@@ -115,7 +115,7 @@ h1, h2, h3 {
     font-size: 25px;
 }
 
-#add-homework:hover,  #add-class button:hover {
+#add-homework:hover,  #add-class-button:hover {
     border: 2px solid rgb(249, 199, 2);
     color: rgb(249, 199, 2);
     transform: scale(1.1);
