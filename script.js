@@ -55,7 +55,7 @@ function updateClassList(day) {
     let classList = document.querySelector('#classes');
     classList.innerHTML = '';
     let subjectSelect = document.querySelector('#subject-select');
-    subjectSelect.innerHTML = '<option value="" disabled selected>Select subject</option>';
+    subjectSelect.innerHTML = '<option value="" disabled selected>Виберіть предмет</option>';
     for (let k = 0; k < classes[day].length; k++) {
         let classItem = classes[day][k];
         classList.innerHTML += `<li>${k+1}. ${classItem}</li>`;
