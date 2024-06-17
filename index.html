@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Let`s learn English!</title>
+    <title>LessonSchedule</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>  
@@ -24,22 +24,28 @@
 
         <div id="schedule">
             <ul id="days">
-                <li >Понеділок</li>
-                <li >Вівторок</li>
-                <li >Середа</li>
-                <li >Четвер</li>
-                <li >П'ятниця</li>
+                <li>Понеділок</li>
+                <li>Вівторок</li>
+                <li>Середа</li>
+                <li>Четвер</li>
+                <li>П'ятниця</li>
             </ul>
             <div id="schedule-details">
                 <h2 id="day-name">Виберіть день</h2>
                 <ul id="classes"></ul>
+               
+                <div id="add-class">
+                    <h3>Додати урок</h3>
+                    <input type="text" id="new-class" placeholder="Назва уроку">
+                    <button id="add-class-button">Додати урок</button>
+                </div>
                 <div id="homework">
                     <h3>Домашка</h3>
                     <ul id="homework-list"></ul>
                     <select id="subject-select">
                         <option value="" disabled selected>Виберіть предмет</option>
                     </select>
-                    <input type="text" id="new-homework" placeholder="Додати домашку">
+                    <input type="text" id="new-homework" placeholder="Введіть домашку">
                     <button id="add-homework">Додати</button>
                 </div>
             </div>
